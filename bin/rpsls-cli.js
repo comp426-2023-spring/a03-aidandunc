@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import minimist from "minimist";
 import { rpsls_function } from "../lib/rpsls.js";
 
