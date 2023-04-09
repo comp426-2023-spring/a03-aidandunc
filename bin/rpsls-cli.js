@@ -1,4 +1,3 @@
-
 import minimist from "minimist";
 import { rpsls_function } from "../lib/rpsls.js";
 
@@ -38,7 +37,6 @@ let shot = args._[0];
 
 try {
     console.log(JSON.stringify(rpsls_function(shot)));
-    
 } catch (error){
     console.log(help_message);
     console.log(rules);
